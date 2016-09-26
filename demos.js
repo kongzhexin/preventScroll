@@ -1,6 +1,5 @@
 $(function () {
   'use strict';
-
   //下拉刷新页面
   $(document).on("pageInit", "#page-ptr", function(e, id, page) {
     var $content = $(page).find(".content").on('refresh', function(e) {
